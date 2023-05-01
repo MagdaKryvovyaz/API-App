@@ -1,9 +1,8 @@
 import NavBar from "./component/NavBar";
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TenorAPI from "./component/TenorAPI";
-import { useEffect, useState } from "react"; 
 import Homepage from "./component/Homepage";
 import SpotifyAPi from "./component/SpotifyAPi"
 import JokeApi from "./component/JokeApi";
