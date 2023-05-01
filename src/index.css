@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 2rem;
+}
+
+.err {
+  color: red;
+  margin-top: 1rem;
+}
+
+.tenor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-img-top {
+  height: 12rem;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+blockquote-footer {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+/* React Bootstrap classes */
+
+.container {
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-control {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.card {
+  width: 18rem;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .position-absolute {
+    position: static !important;
+  }
+  .position-relative {
+    position: static !important;
+  }
+  .bg-dark {
+    background-color: white !important;
+  }
+  .bg-light {
+    background-color: white !important;
+  }
+}
